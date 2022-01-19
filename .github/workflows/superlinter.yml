@@ -1,0 +1,10 @@
+name: Python test code
+
+on: push
+
+jobs:
+  lint:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Super-Linter
+        uses: github/super-linter@v4.8.5
